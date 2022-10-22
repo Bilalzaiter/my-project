@@ -1,0 +1,740 @@
+.whatsapp-image{
+    width: 40px;
+    height: 40px;
+    color: red
+}
+.background-bar{
+    margin-left: 400px;
+    font-weight: 700;
+}
+.fixed-background{
+    width: 100%;
+    height: 300px;
+    background: url("./img/kontakt-fixed-background.jpg") fixed no-repeat;
+    background-position-y: -250px ;
+    margin: 0px 0px 200px 0px;
+    font-size: 25px;
+}
+.impressum-body{
+    font-size: 15px;
+    margin: 100px 0;
+    letter-spacing: 1px;
+    word-spacing: 0.0625rem;
+    line-height: 27px;
+    text-overflow: ellipsis;
+    max-width: 800px
+}
+.map{
+    margin-bottom: 100px
+}
+aller-marken{
+       list-style-type: circle!important;
+	   text-align: left!important;
+	   }
+	   * {
+      box-sizing: border-box;
+        }
+      .item0{
+      grid-area: 1/1/1/3;
+     }
+      .item1{
+      grid-area: 1/3/1/5;
+      min-width: fit-content;
+     }
+     .item2{
+      grid-area: 1/5/1/7;
+     }
+     .item3{
+      grid-area: 1/7/1/9;
+     }
+     
+     .item4{
+      grid-area: 1/9/1/11;
+     }
+     .item5{
+      grid-area: 1/11/1/13;
+     }
+  
+     .item6{
+      grid-area: 1/13/1/15;
+     }
+     .item7{
+      grid-area: 1/15/1/17;
+     }
+  html{
+      font-size: 100%;
+  }
+  ul{
+      list-style-type: circle;
+  }
+  .hide {
+      opacity:0;
+     
+  }
+  .show {
+      opacity:1;
+    
+  }
+  #l-img-r-txt,
+#l-txt-r-img {
+    display: flex;
+}
+
+.l-img-r-txt_img {
+    height: 300px;
+    width: 100%;
+    display: inline-block;
+    background: url('./img/Autoankauf+Schweiz.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 2.5rem;
+	transition: all .50s;
+}
+.l-img-r-txt_img1 {
+    height: 300px;
+    width: 100%;
+    display: inline-block;
+    background: url('./img/Autoverkaufen-Schweiz.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 2.5rem;
+	transition: all .50s;
+}
+
+.l-img-r-txt_txt {
+    height: auto;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.l-txt-r-img-img {
+    height: 300px;
+    width: 100%;
+    display: inline-block;
+    background: url('./img/Autoexport-Schweiz.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 2.5rem;
+	transition: all .50s;
+}
+.l-txt-r-img-img1 {
+    height: 300px;
+    width: 100%;
+    display: inline-block;
+    background: url('./img/Unfallwagen.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 2.5rem;
+	transition: all .50s;
+}
+
+.l-txt-r-img-txt {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+@media only screen and (min-width: 600px) {
+    h4{
+        width: 90%;
+    }
+    .l-img-r-txt_img {
+        height: 300px;
+        float: left;
+        width: 45%;
+        margin: 2%;
+    }
+    .l-img-r-txt_img1 {
+        height: 300px;
+        float: left;
+        width: 45%;
+        margin: 2%;
+    }
+
+        .l-img-r-txt_txt {
+        height: 300px;
+        float: right;
+        width: 45%;
+        margin: 2%;
+    }
+
+    .l-txt-r-img-img {
+        height: 300px;
+        float: right;
+        width: 45%;
+        margin: 2%;
+    }
+    .l-txt-r-img-img1 {
+        height: 300px;
+        float: right;
+        width: 45%;
+        margin: 2%;
+    }
+
+    .l-txt-r-img-txt {
+        height: 300px;
+        float: left;
+        width: 45%;
+        margin: 2%;
+    }
+	a.media:hover {
+      z-index:1;
+      width: 12.5rem;
+      border-bottom: 0.0625rem solid rgba(0,0,0,.5);
+      box-shadow: 0 0 0.0625rem 0.0625rem rgba(0,0,0,.3);
+    }
+	  nav{
+      position: fixed;
+      width: 6.25rem;
+      margin-top: 20px;
+      transition: all 0.3s linear;
+      box-shadow: 0.125rem 0.125rem 0.5rem 0rem rgba(0,0,0,.4);
+      z-index: 1;
+    }
+    nav li{
+      height: 3.75rem;
+      position:relative;
+      list-style: none;
+    }
+    nav li a{
+      color: white;
+      display: none;
+      height: 100%;
+      width: 100%;
+      line-height: 3.75rem;
+      padding-left:25%;
+      border-bottom: 0.0625rem solid rgba(0,0,0,.4);
+      transition: all .3s linear;
+    }
+}
+
+#l-img-r-txt,
+#l-txt-r-img {
+    display: flow-root;
+}
+  nav{
+      position: fixed;
+      width: 6.25rem;
+      margin-top: 20px;
+      transition: all 0.3s linear;
+      box-shadow: 0.125rem 0.125rem 0.5rem 0rem rgba(0,0,0,.4);
+      z-index: 1;
+    }
+    nav li{
+      height: 3.75rem;
+      position:relative;
+      list-style: none;
+    }
+    nav li a{
+      color: white;
+      display: block;
+      height: 100%;
+      width: 100%;
+      line-height: 3.75rem;
+      padding-left:25%;
+      border-bottom: 0.0625rem solid rgba(0,0,0,.4);
+      transition: all .3s linear;
+    }
+    nav li:nth-child(1) a{
+      background: #4267B2;
+     }
+    nav li:nth-child(2) a{
+      background: #1DA1F2;
+    }
+    nav li:nth-child(3) a{
+      background: #E1306C;
+    }
+    nav li:nth-child(4) a{
+      background: #2867B2;
+    }
+    nav li:nth-child(5) a{
+      background: #ff0000;
+    }
+    nav li:nth-child(6) a{
+      background: #252525;
+    }
+    nav li:nth-child(7) a{
+      background: #099738;
+    }
+    nav li a i{
+      position:absolute;
+      top: 1.0625rem;
+      left: 1.25rem;
+      font-size: 1.6875rem;
+    }
+    ul li a span{
+      display: none;
+      font-weight: bold;
+      letter-spacing: 0.0625rem;
+      text-transform: uppercase;
+    }
+    
+    ul li:hover a span{
+      padding-left: 30%;
+      display: block;
+    }
+  form{
+   position: relative;
+   left: 0rem;
+  }
+  i{
+       font-size:0.4375rem;
+       color:#fefefe;
+       line-height:10%;
+        margin-top: 0rem;
+         margin-bottom: 0rem 
+  }
+  
+  #header{
+      padding: 3.75rem;
+  }
+  .text-muted, .question-info{
+      text-transform: capitalize;
+  }
+  
+  #keyword-autoankauf, #keyword-autoexport{
+      color: blue;
+  }
+  .full-keywords-article{
+      font-size: large;
+      padding-top: 2.5rem;
+      padding-left: 2.5rem;
+      padding-right: 2.625rem;
+      word-spacing: 0.0625rem;
+      line-height:1.8;
+      text-align: left;
+      text-transform: capitalize;
+  }
+  .whatsapp-call{
+      font-weight: 900;
+      font-size: large;
+      position: absolute;
+      left: 45rem;
+  }
+  .phone-call{
+      font-weight: 900;
+      font-size: large;
+      position: absolute;
+      left: 28.125rem;
+  }
+    .wählen{
+      min-width: 100%;
+  }
+  div.Autoankauf-Schweiz{
+      float: left;
+  }
+  .articles {
+      display: inline-block;
+  }
+  h6.Autoankauf-Schweiz{
+      font-size: x-large;
+      width: 100%;
+  }
+  .telephone{
+      color: white;
+  }
+  a:hover {
+      text-decoration: none;
+  }
+  .start {
+      position: absolute;
+      display: block;
+      font-weight: 900;
+      font-size: large;
+      top: 9.25rem;
+      left: 15rem;
+  }
+  .language-bar{
+      font-weight:900;
+      padding-left: 40px;
+      align-items: center;
+  }
+  .Mobile-overlay-nav-item{
+      text-decoration: none;
+      font-weight: 900;
+  }
+  a {
+      color: black;
+  }
+  .fa-twitter {
+      position: absolute;
+      left: 1.875rem;
+  }
+  
+  .fa-facebook {
+      position: absolute;
+      left: 4.375rem;
+  }
+  
+  .Auto-verkaufen {
+      position: absolute;
+      right: 6.25rem;
+  }
+  
+  .kaufe-Auto {
+      position: absolute;
+      right: 14.375rem;
+  }
+  
+  .Wählen {
+      position: absolute;
+      right: 20.625rem;
+  }
+  
+  .start {
+      position: absolute;
+      right: 25rem;
+  }
+  
+  .form-button-wrapper , .form-submission-text{
+      position: absolute;
+      left: 18.75rem;
+  }
+  input.field-element , .option{
+      position: absolute;
+      left: 16.875rem;
+  }
+  textarea {
+      position: absolute;
+      left: 3.875rem;
+  }
+  legend.title {
+      font-size: medium;
+  }
+  label.title {
+      font-size: medium;
+     
+  }
+  @import url('https://fonts.googleapis.com/css?family=Roboto');
+  
+  :root {
+      --mainBlue: #40acf1;
+      --mainWhite: #ffffff;
+      --mainBlack: #292f36;
+      --mainGray: rgb(216, 214, 214);
+      --mainYellow: #e3b505;
+      --transparentBlue: rgba(64, 172, 241,0.7);
+  }
+  
+  
+  
+  body {
+      display: block;
+      font-family: 'Roboto', sans-serif;
+      color: var(--mainBlack);
+      background: var(--mainWhite);
+      width: 100%;
+  }
+  
+  /* section title */
+  
+  .section-title--special {
+      background: var(--transparentBlue);
+     color: var(--mainWhite);
+     padding: 2vh 8vh;
+     clip-path:  polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+  }
+  
+  .dropbtn {
+      background-color: #ffffff;
+      color: rgb(0, 0, 0);
+      padding: 1rem;
+      font-size: 1rem;
+      border: none;
+      font-weight: 700;
+    }
+    
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 10rem;
+      box-shadow: 0rem 0.5rem 1rem 0rem rgba(0,0,0,0.2);
+      width: 6.25rem !important;
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+	  line-height: 0.5;
+      color: black;
+      padding: 0.75rem 1rem;
+      text-decoration: none;
+      display: block;
+    }
+    
+    .dropdown-content a:hover {
+    background-color: #b10909;
+    font-weight: 900;
+    text-decoration: none;
+    }
+    
+    .dropdown:hover .dropdown-content {
+    display: block;
+    text-decoration: none;
+    min-width: fit-content;
+    }
+    
+    .dropdown:hover .dropbtn {
+    background-color: rgb(255, 0, 0);
+    text-decoration: none;
+    }
+  
+    .link {
+      background-color: rgb(255,0,0);
+      font-weight: 700;
+      min-width: fit-content;
+    }
+  
+  /* header */
+  
+  .header {
+      clip-path: polygon(0 0,100% 0,100% 95%,50% 100%,0 95%);
+      color: var(--mainWhite);
+      overflow: hidden;
+  }
+  
+  .height-max {
+  
+      min-height: calc(100vh - 7.875rem);
+      background: url(./img/e+350+Blue+4M.jpg);
+      background-position: center;
+      background-size: 100%;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+}
+  
+  @keyframes zoom {
+      0% {
+          transform: scale(1);
+      }
+      50% {
+          transform: scale(1.2) translateX(-5%);
+      }
+      100% {
+          transform: scale(1);
+      }
+  }
+  
+  .title-heading {
+      background: rgba(0,0,0,0.4);
+      border-left: 0.3rem solid var(--mainBlue);
+  }
+  
+  .title {
+      font-weight: 700;
+      font-size: 1.9rem;
+  }
+  
+  @media screen and (min-width: 48rem) {
+      .title {
+          font-size: 3rem;
+      }
+  }
+  
+  .title-icon {
+      color: var(--mainBlue);
+      text-decoration: none!important;
+  }
+  
+  .title-icon:hover {
+      color: var(--mainBlue);
+      opacity: 0.6;
+      text-decoration: none;
+  }
+  
+  /* skills */
+  
+  .skills-icon {
+      font-size: 3rem;
+      color: var(--mainYellow);
+      background: var(--mainGray);
+  }
+  
+  .skills-icon:hover {
+      color: var(--mainYellow);
+      text-decoration: none;
+  }
+  
+  .skills-underline {
+      width: 4rem;
+      height: 0.3rem;
+      background: var(--mainBlue);
+      margin: 1rem auto;
+  }
+  
+  /* inventory */
+  
+  .inventory {
+      background: var(--mainGray);
+  }
+  
+  .car-card {
+      border-radius: 0!important;
+  }
+  
+  .car-img {
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+  }
+  
+  .car-value {
+      background: var(--mainBlue);
+      color: var(--mainWhite);
+      clip-path: polygon(15% 0,85% 0,100% 100%,0 100%);
+      transition: all 1s linear;
+  }
+  
+  .car-value:hover {
+      clip-path: polygon(0 0,100% 0,100% 100%,0 100%);
+      text-decoration: none;
+  }
+  
+  
+  /* question */
+  
+  .question {
+      background: url(https://images.pexels.com/photos/164634/pexels-photo-164634.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)center/cover fixed no-repeat;
+  }
+  
+  .question-grey {
+      background: rgba(79, 109, 122, 0.75);
+  }
+  
+  .question-yellow {
+      background: rgba(227, 181, 5, 0.75);
+  }
+  
+  .question-icon {
+      font-size: 4rem;
+      color: var(--mainBlue);
+      transition: all 0.5s ease-in-out;
+  }
+  
+  .question-icon:hover {
+      transform: translateY(-10%);
+      color: var(--mainBlue);
+      text-decoration: none;
+  }
+  
+  .question-info {
+      color: var(--mainWhite);
+  }
+  
+  /* feautured */
+  
+  .feautured {
+      background: var(--mainGray);
+  }
+  
+  .feautured-item {
+      background: var(--mainWhite);
+      border-radius: 0.5rem;
+      opacity: 0.5;
+      cursor: pointer;
+      transition: all 1s ease-in-out;
+  }
+  
+  .feautured-item:hover {
+      opacity: 1;
+      transform: scale(1.05);
+      text-decoration: none;
+  }
+  
+  .feautured-icon {
+      font-size: 1.5rem;
+      color: var(--mainYellow);
+      cursor: pointer;
+      transition: 0.5s all ease-in-out;
+  }
+  
+  .feautured-icon:hover {
+     color: var(--mainBlue);
+     text-decoration: none;
+  }
+  
+  .img-container {
+      background: var(--mainBlue);
+      position: relative;
+      overflow: hidden;
+  }
+  
+  .featured-photo {
+      transition: all 1s ease-in-out;
+  }
+  
+  .img-container:hover .featured-photo {
+      transform: scale(1.3);
+      opacity: 0.5;
+      text-decoration: none;
+  }
+  
+  .featured-link {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      font-size: 3rem;
+      transform: translate(-50%, -50%);
+      color: var(--mainBlack);
+      opacity: 0;
+      transition: all 1s ease-in-out;
+  }
+  
+  .featured-link:hover {
+      color: var(--mainWhite);
+      text-decoration: none;
+  }
+  
+  .img-container:hover .featured-link {
+      opacity: 1;
+      text-decoration: none;
+  }
+  
+   article p , article h2 {
+      text-transform: lowercase;
+      text-align: center;
+  }
+  
+  article h1 {
+      text-align: center;
+  }
+  
+  .form-inner-wrapper {
+      font-family: 'Courier New', Courier, monospace;
+  }
+  
+  
+  
+  /* footer icons */
+  
+  footer  {
+      background: var(--mainBlack);
+      color:white;
+  }
+  footer ul li a{
+      color:white;
+      font-size: 1.125rem;
+  }
+  footer div a{
+      color:white;
+      font-size: 1.125rem;
+  }
+  .left-fourty{
+      display: block;
+      left: 2.5rem;
+      padding-left: 4.375rem;
+  }
+  .text-center{
+      border: 0.125rem solide white !important;
+      text-align: center;
+  }
